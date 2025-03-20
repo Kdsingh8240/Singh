@@ -1,0 +1,23 @@
+1) Type url in browser and hit enter.
+2) Click on fork dropdown and click on create fork.
+3) Click on Create Fork.
+4) The Repository is forked.
+5) Create New folder on Desktop named as GitFork.
+6) Open Gitbash in GitFork directory.
+7) Type "git clone repo_name" and hit enter.
+8) Cd to the cloned repo in gitbash.
+9) Check git status.
+10) Make changes in file and save it.
+11) In Gitbash type "git add ." and hit enter.
+12) Check "git status".
+13) Type "git remote rm origin".
+14) Commit changes.
+15) Type "git remote add origin repo_link.git".
+16) Go to github settings and click on Developer Settings.
+17) Click on Tokens(Classic) and click on generate new token and type name in Note.
+18) Select Expiration date.
+19) Select all scopes.
+20) Type in Gitbash "git remote set-url origin https://token_url@without_https_repo_link".
+21) Type "git push origin main" and hit enter.
+22) Make Pull request on Github.
+23) Confirm Merge request and see changes
